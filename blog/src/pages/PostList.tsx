@@ -36,7 +36,7 @@ export default function PostList() {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">블로그 게시글</h1>
+          <h1 className="text-3xl font-GowunBatang text-gray-800">블로그 게시글</h1>
           <button
             onClick={() => navigate('/create')}
             className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
@@ -57,7 +57,7 @@ export default function PostList() {
                 onClick={() => navigate(`/post/${post.id}`)}
                 className="bg-white rounded-lg shadow p-6 cursor-pointer hover:shadow-lg transition"
               >
-                <h2 className="text-xl font-semibold text-gray-800 mb-2">
+                <h2 className="text-xl font-GowunBatang text-gray-800 mb-2">
                   {post.title}
                 </h2>
                 <p className="text-gray-600 mb-4 line-clamp-2">{post.content}</p>

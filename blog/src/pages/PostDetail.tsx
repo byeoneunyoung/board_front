@@ -63,7 +63,7 @@ export default function PostDetail() {
 
         <div className="bg-white rounded-lg shadow p-8">
           <div className="border-b pb-6 mb-6">
-            <h1 className="text-3xl font-bold text-gray-800 mb-4">{post.title}</h1>
+            <h1 className="text-3xl font-GowunBatang text-gray-800 mb-4">{post.title}</h1>
             <div className="flex justify-between text-sm text-gray-500">
               <span>작성자: {post.name}</span>
               <span>{new Date(post.createdDt).toLocaleDateString()}</span>

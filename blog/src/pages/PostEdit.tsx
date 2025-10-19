@@ -72,11 +72,11 @@ export default function PostEdit() {
         </button>
 
         <div className="bg-white rounded-lg shadow p-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-6">게시글 수정</h1>
+          <h1 className="text-3xl font-GowunBatang text-gray-800 mb-6">게시글 수정</h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-GowunBatang text-gray-700 mb-2">
                 작성자
               </label>
               <input
@@ -89,7 +89,7 @@ export default function PostEdit() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-GowunBatang text-gray-700 mb-2">
                 제목
               </label>
               <input
@@ -102,7 +102,7 @@ export default function PostEdit() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-GowunBatang text-gray-700 mb-2">
                 내용
               </label>
               <textarea
